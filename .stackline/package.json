@@ -1,17 +1,19 @@
 {
   "name": "@stackline/tslib",
   "author": "Microsoft Corp.",
-  "homepage": "https://github.com/alexandroit/stackline-tslib#readme",
-  "version": "1.0.0",
+  "homepage": "https://alexandro.net/docs/vanilla/tslib/",
+  "version": "1.0.1",
   "license": "0BSD",
   "description": "Runtime library for TypeScript helper functions",
   "keywords": [
-    "TypeScript",
-    "Microsoft",
+    "stackline",
+    "npm-package",
+    "tslib",
+    "typescript",
+    "microsoft",
     "compiler",
     "language",
     "javascript",
-    "tslib",
     "runtime"
   ],
   "bugs": {
