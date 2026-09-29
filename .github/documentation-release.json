@@ -4,7 +4,7 @@
     {
       "name": "@stackline/tslib",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -20,8 +20,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/tslib/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/tslib/-/tslib-1.0.0.tgz",
       "baselineIntegrity": "sha512-z2+eOZen4wdhxIaotJ5Z6NZBCNwgNL6CjWruW2RFJQb3SFiImvnZdqFbjninxw9WRvSy5Gfg468OK0Jult50qQ==",
-      "expectedSha512": "857aca040448bb2c2162e2531c2086c3f01492da619016783a427eeddfa9a079f5e262aa9c467ea6d5fb69cb1e0756859c71c09b911c37f51c59de7ba5d19495",
-      "tag": "docs-stackline-tslib-v1.0.1"
+      "expectedSha512": "d957f2ddc1a9bddb1f3fef3bbf85b94cc6ccfeff876a6755e6c1bd782aa78e7f58d1e2ea240818bb2d2bdbe862ac36c2554da80ee6004668c2d951e57537d035",
+      "tag": "docs-stackline-tslib-v1.0.2"
     }
   ]
 }
