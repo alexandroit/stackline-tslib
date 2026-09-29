@@ -1,0 +1,216 @@
+{
+  "checkedAt": "2026-09-29T00:21:42.770647+00:00",
+  "upstreamRepository": "Microsoft/tslib",
+  "coverage": "Most recently updated 100 open and 30 closed issue/PR entries; PRs removed. This is triage evidence, not a claim of exhaustive review.",
+  "openIssues": [
+    {
+      "number": 286,
+      "title": "__extends\u7ee7\u627fArray\u65f6\uff0c\u4e0d\u7b26\u5408\u9884\u671f",
+      "url": "https://github.com/microsoft/tslib/issues/286"
+    },
+    {
+      "number": 231,
+      "title": "Regression failure upgrading from 2.5.0 to 2.5.1+, webpack fails to transpile new export statement for ES5.",
+      "url": "https://github.com/microsoft/tslib/issues/231"
+    },
+    {
+      "number": 161,
+      "title": "Wrong exports in tslib",
+      "url": "https://github.com/microsoft/tslib/issues/161"
+    },
+    {
+      "number": 268,
+      "title": "End of life support for tslib v2.3.0",
+      "url": "https://github.com/microsoft/tslib/issues/268"
+    },
+    {
+      "number": 264,
+      "title": "import error: '__spreadArray' is not exported from 'tslib' (imported as '__spreadArray').",
+      "url": "https://github.com/microsoft/tslib/issues/264"
+    },
+    {
+      "number": 143,
+      "title": "modules/index.js should re-export tslib.es6.js instead of tslib.js",
+      "url": "https://github.com/microsoft/tslib/issues/143"
+    },
+    {
+      "number": 232,
+      "title": "Performance improvement",
+      "url": "https://github.com/microsoft/tslib/issues/232"
+    },
+    {
+      "number": 149,
+      "title": "export '__spreadArray' (imported as '__spreadArray') was not found in 'tslib'",
+      "url": "https://github.com/microsoft/tslib/issues/149"
+    },
+    {
+      "number": 214,
+      "title": "calls to tslib __setFunctionName fail on Cobalt 9",
+      "url": "https://github.com/microsoft/tslib/issues/214"
+    },
+    {
+      "number": 209,
+      "title": "Cannot find module '...node_modules/tslib/modules/index.js' imported from chunks/app/server.mjs",
+      "url": "https://github.com/microsoft/tslib/issues/209"
+    },
+    {
+      "number": 212,
+      "title": "tslib >=2.5.1 regression - increases bundle size caused by noop `Object.create;` statements",
+      "url": "https://github.com/microsoft/tslib/issues/212"
+    },
+    {
+      "number": 210,
+      "title": "Generate SLSA Build L3 provenance",
+      "url": "https://github.com/microsoft/tslib/issues/210"
+    },
+    {
+      "number": 173,
+      "title": "tslib should follow standards for ESM/CJS detection",
+      "url": "https://github.com/microsoft/tslib/issues/173"
+    },
+    {
+      "number": 190,
+      "title": "__importDefault method may return an object with undefined default property",
+      "url": "https://github.com/microsoft/tslib/issues/190"
+    },
+    {
+      "number": 147,
+      "title": "'tslib' does not provide an export named '__decorate'",
+      "url": "https://github.com/microsoft/tslib/issues/147"
+    },
+    {
+      "number": 180,
+      "title": "Is this project dead from community??",
+      "url": "https://github.com/microsoft/tslib/issues/180"
+    },
+    {
+      "number": 170,
+      "title": "Package tslib has been ignored because it contains invalid configuration",
+      "url": "https://github.com/microsoft/tslib/issues/170"
+    },
+    {
+      "number": 175,
+      "title": "TypeError when spreadArray is used on a string containing an emoji/Unicode character",
+      "url": "https://github.com/microsoft/tslib/issues/175"
+    },
+    {
+      "number": 74,
+      "title": "__spread does not work in IE11",
+      "url": "https://github.com/microsoft/tslib/issues/74"
+    },
+    {
+      "number": 156,
+      "title": "main.js:1 Uncaught Error: Cannot find module 'tslib'",
+      "url": "https://github.com/microsoft/tslib/issues/156"
+    },
+    {
+      "number": 150,
+      "title": "question: why isn't it tslib distributed together with tsc?",
+      "url": "https://github.com/microsoft/tslib/issues/150"
+    },
+    {
+      "number": 148,
+      "title": "Document compatibility of tslib with typescript",
+      "url": "https://github.com/microsoft/tslib/issues/148"
+    },
+    {
+      "number": 125,
+      "title": "__spread Performance Issues",
+      "url": "https://github.com/microsoft/tslib/issues/125"
+    },
+    {
+      "number": 128,
+      "title": "Version 1.14.0 removes default export",
+      "url": "https://github.com/microsoft/tslib/issues/128"
+    },
+    {
+      "number": 145,
+      "title": "2.1.0 version with node and jest mocking causes errors",
+      "url": "https://github.com/microsoft/tslib/issues/145"
+    },
+    {
+      "number": 132,
+      "title": "Dead tslib.es6.js code",
+      "url": "https://github.com/microsoft/tslib/issues/132"
+    },
+    {
+      "number": 22,
+      "title": "Document correspondence between TypeScript and tslib versions",
+      "url": "https://github.com/microsoft/tslib/issues/22"
+    },
+    {
+      "number": 115,
+      "title": "v1.13.0 Error with older typescript version -- node_modules/tslib/tslib.d.ts(37,78): error TS2304: Cannot find name 'PropertyKey'. (When targeting es3)",
+      "url": "https://github.com/microsoft/tslib/issues/115"
+    },
+    {
+      "number": 104,
+      "title": "\"constructor\" is enumerable when targetting es5",
+      "url": "https://github.com/microsoft/tslib/issues/104"
+    },
+    {
+      "number": 114,
+      "title": "__importStar can result in undefined imports when importing cyclical dependencies",
+      "url": "https://github.com/microsoft/tslib/issues/114"
+    },
+    {
+      "number": 32,
+      "title": "tslib is polluting window object",
+      "url": "https://github.com/microsoft/tslib/issues/32"
+    },
+    {
+      "number": 61,
+      "title": "Document helpers needed per target platform",
+      "url": "https://github.com/microsoft/tslib/issues/61"
+    },
+    {
+      "number": 48,
+      "title": "Lint tslib",
+      "url": "https://github.com/microsoft/tslib/issues/48"
+    },
+    {
+      "number": 46,
+      "title": "tslib __decorate was conflict with property decorator definition",
+      "url": "https://github.com/microsoft/tslib/issues/46"
+    },
+    {
+      "number": 14,
+      "title": "Override helpers",
+      "url": "https://github.com/microsoft/tslib/issues/14"
+    },
+    {
+      "number": 8,
+      "title": "__awaiter helper with arrow functions from TypeScript compiler to tslib",
+      "url": "https://github.com/microsoft/tslib/issues/8"
+    }
+  ],
+  "recentClosedIssues": [
+    {
+      "number": 292,
+      "title": "game code",
+      "url": "https://github.com/microsoft/tslib/issues/292"
+    },
+    {
+      "number": 282,
+      "title": "__spreadArray\u4e0d\u7b26\u5408\u9884\u671f",
+      "url": "https://github.com/microsoft/tslib/issues/282"
+    },
+    {
+      "number": 134,
+      "title": "DeprecationWarning: Use of deprecated folder mapping \"./\" in the \"exports\" field",
+      "url": "https://github.com/microsoft/tslib/issues/134"
+    },
+    {
+      "number": 274,
+      "title": "Version 2.8.0 ES5 Incompatibility",
+      "url": "https://github.com/microsoft/tslib/issues/274"
+    },
+    {
+      "number": 273,
+      "title": "tslib 2.8.0: STATUS_BREAKPOINT in Edge",
+      "url": "https://github.com/microsoft/tslib/issues/273"
+    }
+  ],
+  "decision": "Maintenance adoption with preserved runtime payload. No runtime defect correction is claimed. Reports remain visible for subsequent targeted reproduction.",
+  "limits": "Issue titles and bodies were reviewed from the bounded primary-source snapshot; this does not claim exhaustive issue closure or vulnerability absence."
+}

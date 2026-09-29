@@ -1,0 +1,5 @@
+Independent maintenance fork of tslib 2.8.1.
+Original copyright, author attribution, and license files are retained unchanged.
+Upstream: https://github.com/Microsoft/tslib
+Base commit: d72d6f70b36286bc3f94a3dda1e64dcb568b1370
+Stackline is not affiliated with or endorsed by upstream maintainers.
