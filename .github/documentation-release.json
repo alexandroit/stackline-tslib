@@ -1,0 +1,27 @@
+{
+  "repository": "alexandroit/stackline-tslib",
+  "packages": [
+    {
+      "name": "@stackline/tslib",
+      "path": "README.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "tslib",
+        "typescript",
+        "microsoft",
+        "compiler",
+        "language",
+        "javascript",
+        "runtime"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/tslib/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/tslib/-/tslib-1.0.0.tgz",
+      "baselineIntegrity": "sha512-z2+eOZen4wdhxIaotJ5Z6NZBCNwgNL6CjWruW2RFJQb3SFiImvnZdqFbjninxw9WRvSy5Gfg468OK0Jult50qQ==",
+      "expectedSha512": "857aca040448bb2c2162e2531c2086c3f01492da619016783a427eeddfa9a079f5e262aa9c467ea6d5fb69cb1e0756859c71c09b911c37f51c59de7ba5d19495",
+      "tag": "docs-stackline-tslib-v1.0.1"
+    }
+  ]
+}
