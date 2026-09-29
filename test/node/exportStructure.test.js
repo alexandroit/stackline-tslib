@@ -31,6 +31,8 @@ function compareKeys(name1, tslib1, name2, tslib2) {
   const difference = new Set(Object.keys(tslib1)).symmetricDifference(new Set(Object.keys(tslib2)));
   difference.delete("__esModule");
   difference.delete("default"); // Asserted separately where expected
+  // Node 23+ exposes this CommonJS interop marker, not a tslib helper.
+  difference.delete("module.exports");
   const messages = Array.from(difference).map(missing => `'${missing}' missing in ${missing in tslib1 ? name2 : name1}`);
   if (messages.length > 0) {
     assert.fail(`Mismatch between ${name1} and ${name2}:\n\n  ${messages.join("\n  ")}\n`);
