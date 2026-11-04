@@ -9,3 +9,20 @@ updates:
         patterns:
           - "*"
 
+  - package-ecosystem: npm
+    directories:
+    - /
+    - /.stackline
+    schedule:
+      interval: weekly
+      day: monday
+      time: '10:00'
+      timezone: America/Toronto
+    open-pull-requests-limit: 5
+    groups:
+      compatible-updates:
+        patterns:
+        - '*'
+        update-types:
+        - minor
+        - patch
