@@ -5,7 +5,9 @@
   "upstreamIntegrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==",
   "upstreamCommit": "d72d6f70b36286bc3f94a3dda1e64dcb568b1370",
   "sourcePackageDirectory": ".",
-  "overlays": {},
+  "overlays": {
+    "README.md": "README.md"
+  },
   "tests": [
     "node test/runTests.js"
   ]
