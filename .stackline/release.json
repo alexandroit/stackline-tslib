@@ -1,9 +1,9 @@
 {
   "slug": "tslib",
   "upstream": "tslib",
-  "upstreamVersion": "2.8.1",
-  "upstreamIntegrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==",
-  "upstreamCommit": "d72d6f70b36286bc3f94a3dda1e64dcb568b1370",
+  "upstreamVersion": "2.9.1",
+  "upstreamIntegrity": "sha512-a4Ux9VKuIMHsOS7ENbEq6hK2ZGYIT27Rtl0E4eD9KqwxhKiQeMZE/9xb3IdYwWaSOyIBQLExhQgXDTYoiCxnWA==",
+  "upstreamCommit": "f16778939f07f107f3caa52db371f0a853a96708",
   "sourcePackageDirectory": ".",
   "overlays": {
     "README.md": "README.md"

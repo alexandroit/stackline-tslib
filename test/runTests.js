@@ -18,7 +18,7 @@ if (!filesInTest.includes("node_modules")) {
   console.log("Installed");
 }
 
-const chalk = require("chalk");
+const { default: chalk } = require("chalk");
 for (const test of tests) {
   console.log("---> " + chalk.bold(test));
 

@@ -1,19 +1,19 @@
 # @stackline/tslib
 
-Independent Stackline maintenance of `tslib@2.8.1`. Original authors, licenses, API entry points, module formats and engine requirements are preserved. This project is not endorsed by the upstream maintainers.
+Independent Stackline maintenance of `tslib@2.9.1`. Original authors, licenses, API entry points, module formats and engine requirements are preserved. This project is not endorsed by the upstream maintainers.
 
 ## Install and migrate
 
 ```sh
-npm install @stackline/tslib@1.0.0
-npm install tslib@npm:@stackline/tslib@1.0.0
+npm install @stackline/tslib@1.1.0
+npm install tslib@npm:@stackline/tslib@1.1.0
 ```
 
 The second form retains the historical dependency key and imports. The release version is independent from the upstream API version. Embedded upstream version strings stay unchanged unless a documented source rebuild requires otherwise.
 
 ## Release differences
 
-This initial release adopts maintenance without changing runtime files; it does not claim to fix upstream bugs.
+Version 1.1.0 incorporates the tslib 2.9.1 runtime and type declarations, including additional relative-import extension mappings. No security fix is claimed without an associated advisory.
 
 ## Compatibility and release proof
 

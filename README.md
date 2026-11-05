@@ -10,20 +10,20 @@
 
 **[Documentation](https://alexandro.net/docs/vanilla/tslib/)** | **[npm](https://www.npmjs.com/package/@stackline/tslib)** | **[Issues](https://github.com/alexandroit/stackline-tslib/issues)** | **[Repository](https://github.com/alexandroit/stackline-tslib)**
 
-**Current package version:** `1.0.2`
+**Current package version:** `1.1.0`
 
 ---
 
 ## Why this package?
 
-`@stackline/tslib` is the Stackline-maintained distribution of `tslib@2.8.1`. It is an independent continuation of [tslib](https://github.com/Microsoft/tslib); original authors and licenses remain credited below.
+`@stackline/tslib` is the Stackline-maintained distribution of `tslib@2.9.1`. It is an independent continuation of [tslib](https://github.com/Microsoft/tslib); original authors and licenses remain credited below.
 
 ## Compatibility
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/tslib@1.0.2` |
-| API target | `tslib@2.8.1` |
+| Package | `@stackline/tslib@1.1.0` |
+| API target | `tslib@2.9.1` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `0BSD` |
 | Main entry | `tslib.js` |

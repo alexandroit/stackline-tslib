@@ -1,11 +1,11 @@
 # Upstream origin and triage
 
-- Original package: `tslib@2.8.1`
+- Original package: `tslib@2.9.1`
 - Repository: https://github.com/Microsoft/tslib
-- Source commit: https://github.com/Microsoft/tslib/commit/d72d6f70b36286bc3f94a3dda1e64dcb568b1370
+- Source commit: https://github.com/Microsoft/tslib/commit/f16778939f07f107f3caa52db371f0a853a96708
 - Source directory: `.`
-- npm tarball: https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz
-- SHA512 integrity: `sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==`
+- npm tarball: https://registry.npmjs.org/tslib/-/tslib-2.9.1.tgz
+- SHA512 integrity: `sha512-a4Ux9VKuIMHsOS7ENbEq6hK2ZGYIT27Rtl0E4eD9KqwxhKiQeMZE/9xb3IdYwWaSOyIBQLExhQgXDTYoiCxnWA==`
 - npm last-release age selects maintenance scope; it does not imply no ongoing source development.
 
 ## Reviewed issues

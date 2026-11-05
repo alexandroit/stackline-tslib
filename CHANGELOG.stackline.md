@@ -1,5 +1,11 @@
 # Stackline changelog
 
+## 1.1.0
+
+- Synchronize runtime files and type declarations with tslib 2.9.1.
+- Include upstream tests for additional import-extension mappings and case matching.
+- Refresh consumer tooling and verify packed CJS/ESM behavior and zero audit findings.
+
 ## 1.0.0
 
 - Adopt maintenance from `tslib@2.8.1` with preserved source history and license.

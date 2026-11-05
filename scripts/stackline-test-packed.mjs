@@ -8,7 +8,7 @@ import {createRequire} from 'node:module';
 const root=process.cwd();
 const cfg=JSON.parse(readFileSync('.stackline/release.json','utf8'));
 const metadata=JSON.parse(readFileSync('.stackline/package.json','utf8'));
-const archive=path.resolve('artifact',readdirSync('artifact').find(x=>x.endsWith('.tgz')));
+const archive=path.resolve('artifact',metadata.name.replace('@','').replace('/','-')+'-'+metadata.version+'.tgz');
 const cwd=mkdtempSync(path.join(os.tmpdir(),'stackline-runtime-'));
 try {
  writeFileSync(path.join(cwd,'package.json'),JSON.stringify({name:'stackline-packed-contract',version:'1.0.0',private:true,dependencies:{[metadata.name]:'file:'+archive}}));
@@ -38,7 +38,7 @@ try {
  case 'source-map-js': {const sm=require(metadata.name);assert.throws(()=>new sm.SourceMapConsumer({version:3,sections:[{offset:{line:Infinity,column:0},map:{version:3,names:[],sources:[],mappings:''}}]}),TypeError);const map=new sm.SourceMapGenerator();map.addMapping({generated:{line:1,column:0},original:{line:1,column:0},source:'input.js'});assert.equal(new sm.SourceMapConsumer(map.toJSON()).originalPositionFor({line:1,column:0}).source,'input.js');break;}
  case 'import-meta-resolve': {assert.equal(api.resolve('node:fs',import.meta.url),'node:fs');const {codes}=await load('lib/errors.js');assert.match(new codes.ERR_INVALID_ARG_TYPE('x',['object','Date'],1).message,/must be an instance of Date or Object/);const {defaultGetFormatWithoutErrors:f}=await load('lib/get-format.js');assert.equal(f(new URL('data:text/'+'a'.repeat(100000)),{parentURL:import.meta.url}),null);break;}
  case 'rollup-plugin-inject': {const inject=require(metadata.name);assert.equal(typeof inject,'function');assert.equal(inject({Promise:'es6-promise'}).name,'inject');const esm=await load('dist/es/index.js');assert.equal(typeof esm.default,'function');break;}
- case 'tslib': {const tslib=require(metadata.name);assert.deepEqual(tslib.__assign({},{a:1}),{a:1});assert.deepEqual(tslib.__spreadArray([1],[2],true),[1,2]);const esm=await load('tslib.es6.mjs');assert.equal(typeof esm.__awaiter,'function');break;}
+ case 'tslib': {const tslib=require(metadata.name);assert.deepEqual(tslib.__assign({},{a:1}),{a:1});assert.deepEqual(tslib.__spreadArray([1],[2],true),[1,2]);const esm=await load('tslib.es6.mjs');assert.equal(typeof esm.__awaiter,'function');for(const api of [tslib,esm]) {assert.equal(api.__rewriteRelativeImportExtension('./View.VUE',false,{'.vue':'.js'},true),'./View.js');assert.equal(api.__rewriteRelativeImportExtension('./View.v+ue',false,{'.v+ue':'.mjs'}),'./View.mjs');}break;}
  case 'pg-copy-streams': {const pg=require(metadata.name);assert.equal(typeof pg.from('COPY t FROM STDIN').write,'function');assert.equal(typeof pg.to('COPY t TO STDOUT').read,'function');assert.equal(typeof require(path.join(dir,'copy-both.js')),'function');break;}
  case 'update-notifier': assert.equal(typeof api.default,'function');break;
  case 'bootstrap': assert(readFileSync(path.join(dir,'dist/css/bootstrap.css'),'utf8').includes('.container'));assert(readFileSync(path.join(dir,'dist/js/bootstrap.js'),'utf8').includes('class Modal'));break;
